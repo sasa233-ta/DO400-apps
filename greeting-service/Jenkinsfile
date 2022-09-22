@@ -9,7 +9,7 @@ pipeline{
 
                 sh '''
 
-                    oc project gppkup-strategies
+                    oc project gppkup-deploy-strategies
 
                     oc start-build greeting-service --follow --wait
 
